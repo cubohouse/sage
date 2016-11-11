@@ -29,6 +29,9 @@ function setup() {
   register_nav_menus([
     'primary_navigation' => __('Primary Navigation', 'sage')
   ]);
+register_nav_menus([
+    'secondary_navigation' => __('Secondary Navigation', 'sage')
+  ]);
 
   // Enable post thumbnails
   // http://codex.wordpress.org/Post_Thumbnails
