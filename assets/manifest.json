@@ -12,6 +12,11 @@
       ],
       "main": true
     },
+  "fonts": {
+      "files": [
+        "fonts/**/*", "../bower_components/**/*.{eot,otf,svg,ttc,ttf,woff,woff2}"
+      ]
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"
@@ -22,6 +27,8 @@
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://www.cubohouse.dev"
   }
 }
+
+

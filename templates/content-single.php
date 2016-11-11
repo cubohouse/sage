@@ -13,3 +13,7 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php endwhile; ?>
+
+<i class="fa fa-thermometer-empty" aria-hidden="true"></i>
+<i class="fa fa-thermometer-empty" aria-hidden="true">test</i>
+
